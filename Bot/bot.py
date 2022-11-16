@@ -2,7 +2,8 @@ import pyautogui
 import time
 import os
 
-while(1):
+z = 0
+while(z < 99999):
     i = 0
     k = 0
     while(i <= 10):
@@ -16,6 +17,5 @@ while(1):
         pyautogui.hotkey('alt', 'f4')
         i = i + 1
     i = 0
-    os.startfile('C:/Program Files/BraveSoftware/Brave-Browser/Application/brave.exe')
     time.sleep(3100)
-    pyautogui.hotkey('alt', 'f4')
+    z = z + 1
